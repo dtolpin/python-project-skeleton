@@ -1,4 +1,8 @@
+"""PyTest tests for factorial.
+"""
+
 from mynamespace.mypackage.factorial import factorial
+
 
 def test_factorial():
     """Tests factorial to conform to the definition.
