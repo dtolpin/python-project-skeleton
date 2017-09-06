@@ -32,7 +32,7 @@ setup(
     entry_points={
         "console_scripts": [
             "hello=mynamespace.mypackage.cmdline:hello",
-            "gdbye=mynamerspace.mypackage.cmdline:gdbye"
+            "gdbye=mynamespace.mypackage.cmdline:gdbye"
         ]
     },
 
