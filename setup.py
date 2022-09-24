@@ -39,15 +39,7 @@ setup(
     # author and license
     author="David Tolpin",
     author_email="david.tolpin@gmail.com",
-    license="MIT",
+    license="MIT"
 
-    # dependencies, a list of rules
-    install_requires=["overrides>=1.8"],
-    # add links to repositories if modules are not on pypi
-    dependency_links=[
-    ],
-
-    #  PyTest integration
-    setup_requires=["pytest-runner"],
-    tests_require=["pytest"]
+    # requirements are in pyproject.toml, PEP 517, 518
 )
